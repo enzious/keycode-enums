@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "outDir": "./lib",
+    "baseUrl": "./",
+    "paths": {
+      "*": [
+        "./src/*",
+        "./src/types/*"
+      ]
+    },
+    "strict": true
+  },
+  "include": ["src",
+    "./src/**/*.tsx",
+    "./src/**/*"],
+  "exclude": ["node_modules", "**/__tests__/*"]
+}
