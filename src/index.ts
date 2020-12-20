@@ -4,7 +4,7 @@ import {
   LINUX_KEYCODES_TO_KEY_ENUM,
   WINDOWS_KEYCODES_TO_KEY_ENUM,
   MOUSE_BUTTONS_TO_KEY_ENUM,
-} from 'enums';
+} from './enums';
 
 export {
   WEB_KEYCODES_TO_KEY_ENUM,
