@@ -180,19 +180,6 @@ const LINUX_KEYCODES: { [key_enum: string]: number } = {
   KEY_LALT:              56, // KEY_LEFTALT
   KEY_RALT:              100, // KEY_RIGHTALT
 
-  ['KEY_`']:             41,
-  ['KEY_-']:             12,
-  ['KEY_+']:             13,
-  KEY_SP4:               26,
-  KEY_SP5:               27,
-  KEY_SP6:               39,
-  KEY_SP7:               40,
-  KEY_SP8:               43,
-  KEY_SP9:               51,
-  KEY_SP10:              52,
-  KEY_SP11:              54,
-  KEY_SP12:              86,
-
   KEY_UP:                103,
   KEY_DOWN:              108,
   KEY_LEFT:              105,
@@ -270,7 +257,7 @@ const LINUX_KEYCODES: { [key_enum: string]: number } = {
   KEY_CAPSLOCK:          58,
   KEY_INSERT:            91,
   KEY_DELETE:            92,
-  KEY_HOME:              3643,
+  KEY_HOME:              3653,
   KEY_END:               3675,
   KEY_PAGEUP:            3637,
   KEY_PAGEDOWN:          3677,
