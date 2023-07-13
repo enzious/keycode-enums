@@ -355,3 +355,7 @@ export const keyCodeToDisplay = (source: 'iohook' | 'web', keyCode: number): str
   return keyEnumToDisplay(keyCodeToKeyEnum(source, keyCode));
 };
 
+export const keyButtonToDisplay = (source: 'iohook' | 'web', mouseButton: number): string | undefined => {
+  return keyEnumToDisplay(mouseButtonToKeyEnum(source, mouseButton));
+};
+
