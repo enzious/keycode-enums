@@ -325,6 +325,19 @@ export const keyCodeToKeyEnum = (source: 'iohook' | 'web', keyCode: number): str
   }
 };
 
+export const mouseButtonToKeyEnum = (source: 'iohook' | 'web', mouseButton: number): string | undefined => {
+  switch (mouseButton) {
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+      return `MOUSE_BUTTON${mouseButton}`;
+    default:
+      return 'MOUSE_NOBUTTON';
+  }
+};
+
 export const keyEnumToKeyCode = (target: 'iohook' | 'web', keyEnum: string): number | undefined => {
   switch (target) {
     case 'web':

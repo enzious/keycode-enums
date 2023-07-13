@@ -37,10 +37,10 @@ const readline = require('readline');
         const matches = line.match(MOUSE_MATCH);
         
         if (matches) {
-          keys.push(`MOUSE_${matches[1]}`);
+          // keys.push(`MOUSE_${matches[1]}`);
 
           // console.log(`MOUSE match: ${JSON.stringify(matches.slice(1))}`);
-          output.write(`const IOHOOK_MOUSE_${matches[1]} = ${matches[2]};\n`);
+          // output.write(`const IOHOOK_MOUSE_${matches[1]} = ${matches[2]};\n`);
         } else {
           console.log(`Unknown IOHOOK_MOUSE: ${line}`);
         }
