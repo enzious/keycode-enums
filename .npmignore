@@ -1,2 +1,5 @@
 src
 tsconfig.json
+build-iohook.js
+.git*
+libuiohook

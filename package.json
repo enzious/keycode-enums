@@ -1,17 +1,18 @@
 {
   "name": "keycode-enums",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
+    "build:iohook": "node ./build-iohook.js",
     "prepare": "npm run build"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "enzi <enzi@braindead.io",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^4.1.3"
   }

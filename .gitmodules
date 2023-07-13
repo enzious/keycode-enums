@@ -1,0 +1,3 @@
+[submodule "libuiohook"]
+	path = libuiohook
+	url = git@github.com:enzious/libuiohook.git
